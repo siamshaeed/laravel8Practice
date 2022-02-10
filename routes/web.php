@@ -14,9 +14,10 @@ use App\Http\Controllers\RelationshipController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-// git test
 Route::get('/', function () {
     return view('welcome');
 });
 
+// RelationShip
 Route::get('one-to-one-relation', [RelationshipController::class, 'oneToOneRelation']);
+//End RelationShip
